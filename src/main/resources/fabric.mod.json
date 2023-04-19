@@ -8,14 +8,14 @@
 		"alazeprt"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/"
+		"homepage": "https://github.com/alazeprt/Graphics_Card_Mod"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/graphics-card/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.alazeprt.ExampleMod"
+			"com.alazeprt.GPU"
 		]
 	},
 	"depends": {
