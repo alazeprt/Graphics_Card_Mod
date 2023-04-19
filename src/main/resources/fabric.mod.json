@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "graphics-card",
+	"version": "${version}",
+	"name": "Graphics Card",
+	"description": "A graphics card mod with decorative features added",
+	"authors": [
+		"alazeprt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/graphics-card/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alazeprt.ExampleMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.8",
+		"minecraft": "~1.16.5",
+		"java": ">=8",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
